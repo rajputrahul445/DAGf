@@ -71,25 +71,26 @@ a.navbar-brand img {
 
 .sliderContent h3 {
     font-size: 20px;
-    color: #0e2b5d;
-    font-family: "Montserrat", sans-serif;;
+    color: #12144b;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
 }
 
 .sliderContent h1 {
-    font-size: 48px;
-    color: #0e2b5c;
+    font-size: 60px;
+    color: #12144b;
     font-weight: 600;
     margin: 10px 0;
-
 }
 
 .sliderContent h2 {
     font-size: 32px;
     color: #fc5546;
+    margin: 0 0 40px;
 }
 
 .sliderContent p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -98,10 +99,11 @@ a.navbar-brand img {
     padding: 9px 30px;
     background: #ee5343;
     color: #fff;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     border: solid 1px #ee5343;
+    border-radius: 7px;
 }
 .orangeBtn:hover {
     color: #ee5343;
@@ -121,9 +123,9 @@ a.navbar-brand img {
 .cdx-circle-button .logo {
     position: absolute;
     top: 50%;
-    margin-top: -37px;
+    margin-top: -50px;
     left: 50%;
-    margin-left: -39px;
+    margin-left: -50px;
     background: #e4e4e4;
     padding: 20px;
     border-radius: 50%;
@@ -144,17 +146,21 @@ a.navbar-brand img {
 }
 .circle-text-wrp{
     position: absolute;
-    top: -40px;
-    right: 20%;
+    top: -20px;
+    right: 16%;
+}
+.cdx-circle-button-text span {
+    color: #707887;
 }
 .customSec {
     padding: 100px 0;
 }
 
 h2.heading-title {
-    color: #0e2b5c;
+    color: #12144b;
     font-size: 48px;
     font-weight: 600;
+    margin: 0 0 25px;
 }
 
 .companyContent ul {
@@ -179,6 +185,7 @@ h2.heading-title {
     font-size: 16px;
     font-weight: 400;
     color: #707887;
+    margin: 0 0 10px;
 }
 
 .companyContent > .gap20 {
@@ -187,6 +194,7 @@ h2.heading-title {
 
 .compnayAwardsContent ul.listInline li {
     color: #ee5343;
+    margin: 0;
 }
 .counterSec{
     background: url(../images/bg-10.webp) 0 0 no-repeat;
