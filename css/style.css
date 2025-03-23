@@ -9,7 +9,9 @@ html {
   /* h1, h2, h3, h4, h5, h6 {  } */
   input, button { outline: none !important; box-shadow: none; }
   button{cursor: pointer;}
-
+  .gap-5{
+    gap: 3rem;
+  }
   .full-width{
     width: 100%;
   }
@@ -153,7 +155,7 @@ a.navbar-brand img {
     color: #707887;
 }
 .customSec {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 h2.heading-title {
@@ -246,17 +248,177 @@ h2.heading-title {
     z-index: 1;
 }
 
+.text-dark {
+    color: #262626 !important;
+}
+.accordian-anchor-tags {
+    padding: 10px 42px;
+    border: 1px solid;
+    border-radius: 2.5rem;
+    color: #000;
+}
+.yellow-btn {
+    background-color: #dd9d3c !important;
+    color: #000 !important;
+    font-size: 18px;
+    font-weight: 500;
+    box-shadow: 0px 0px 5px 2px #00000036;
+    padding: 8px 20px 8px 20px;
+    display: inline-flex;
+    white-space: nowrap;
+}
+.accordian-image-container {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.accordian-image-container .image-text {
+    z-index: 99;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+.accordian-image-container .image-text h5, .accordian-image-container .image-text p {
+    color: #fff;
+    text-align: left;
+}
+.accordian-image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(80deg, #050b20c4 30%, #050B2000 70%);
+    border-radius: 10px;
+}
+.accordion-section-title {
+    color: #121212;
+    width: 100%;
+    padding: 15px 0;
+    cursor: poInter;
+    font-family: var(--body-font);
+    width: 100%;
+    display: inline-block;
+    font-size: 17px;
+    transition: all linear 0.5s;
+    text-decoration: none;
+    overflow: none;
+    border-bottom: solid 1px #dddddd;
+}
+.accordion-section-title.active {
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+.accordian-title-number {
+    background: #dd9d3c;
+    padding: 5px 13px;
+    border-radius: 50%;
+    color: #fff;
+}
+.accordian-main-title {
+    font-weight: 500;
+    font-size: 30px;
+}
+.accordion-section-title img {
+    transition: margin-left 0.5s ease-in-out;
+    pointer-events: none;
+}
+.accordion-section-title img {
+    margin-left: 120px;
+}
+.accordion-section-title:before {
+    font-family: "FontAwesome";
+    content: "\f107";
+    float: right;
+    color: #fff;
+    text-align: center;
+    padding: 8px 8px 8px 8px;
+    top: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    width: 30px;
+    position: relative;
+    top: 50px;
+    background: #dd9d3c !important;
+}
+.accordion-section-title.active:before {
+    content: "\f106";
+}
+.accordion-section-title:hover img {
+    margin-left: 200px;
+}
+.accordian-image-container img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    height: 100%;
+}
 
+.accordion-section-content {
+    padding-top: 15px;
+    padding-bottom: 5px;
+/*    display: none;*/
+    margin-bottom: 10px;
+}
+.accordion-section-content h4 {
+    color: #031B4E;
+    font-weight: 600;
+    font-size: 20px;
+}
+.flex-heading h2{
+    min-width: 340px;
+    margin: 0;
+}
+.text-light .card {
+    color: #ffffff !important;
+    background: rgba(255, 255, 255, .05);
+    border-radius: 30px;
+    min-height: 335px;
+}
+.stepsSec .card-header {
+    background-color: #dd9d3c;
+    padding: 1rem 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+.force-text-center * {
+    text-align: center !important;
+}
+.black-text{
+    color: #000 !important;
+    font-weight: 600;
+}
 
-
-
-
-
-
-
-
-
-
+#section-fun-facts .new-card {
+    box-shadow: 0px 0px 8px 2px #00000024;
+    padding: 85px;
+    border-radius: 1rem;
+}
+#section-fun-facts h1 {
+    font-size: 40px;
+    color: #113907;
+    font-weight: bold;
+}
+#section-fun-facts p {
+    font-family: montserrat;
+    color: #000;
+    font-weight: bold;
+}
+footer {
+    background: #f8f9fb;
+    padding: 70px;
+    font-size: 15px;
+}
+.google-img {
+    padding: 25px 0px;
+}
 
 
 
