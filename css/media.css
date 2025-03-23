@@ -22,6 +22,12 @@
     .accordian-image-container .image-text{
         transform: translateX(-20%);
     }
+    #section-fun-facts .new-card {
+        padding: 25px;
+    }
+    .new-card h1 {
+        font-size: 32px !important;
+    }
    
 
 }
